@@ -1,0 +1,51 @@
+/* General container styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 10px;
+    width: 100%; /* Make the list take the full width */
+    background-color: #d4edda; /* Light green background */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin-bottom: 20px; /* Add spacing below the list */
+}
+
+li {
+    display: flex;
+    justify-content: space-between; /* Align item name to the left and button to the right */
+    align-items: center; /* Vertically center the content */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Add spacing between list items */
+    background-color: #ffffff; /* Optional: Add a white background for list items */
+    color: black; /* Ensure text is readable inside list items */
+}
+
+/* Remove button styling */
+button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
